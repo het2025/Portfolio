@@ -3,6 +3,7 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { assetPath } from "@/lib/assetPath";
 
 export default function Navbar() {
   const { scrollY } = useScroll();
@@ -34,7 +35,7 @@ export default function Navbar() {
 
       <div className="flex items-center gap-3 pointer-events-auto">
         <a
-          href="/resume/Het_Patel_Resume.pdf"
+          href={assetPath("/resume/Het_Patel_Resume.pdf")}
           download
           className="px-5 py-2 rounded-full font-medium text-sm text-white/80 border border-white/20 hover:border-accent-cyan hover:text-white hover:bg-white/5 transition-all flex items-center gap-2"
         >

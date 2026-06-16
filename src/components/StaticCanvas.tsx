@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useEffect, useState } from "react";
+import { assetPath } from "@/lib/assetPath";
 
 interface StaticCanvasProps {
   frame?: number;
@@ -13,7 +14,7 @@ export default function StaticCanvas({ frame = 120 }: StaticCanvasProps) {
   useEffect(() => {
     const img = new Image();
     const paddedIndex = String(frame).padStart(3, "0");
-    img.src = `/keyboard-teardown/ezgif-frame-${paddedIndex}.jpg`;
+    img.src = assetPath(`/keyboard-teardown/ezgif-frame-${paddedIndex}.jpg`);
     img.onload = () => {
       if (!canvasRef.current) return;
       const canvas = canvasRef.current;

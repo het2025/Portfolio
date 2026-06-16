@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import type { Project } from "@/lib/projects";
 import Image from "next/image";
 import { useEffect } from "react";
+import { assetPath } from "@/lib/assetPath";
 
 interface ProjectModalProps {
   project: Project | null;
@@ -67,7 +68,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
             {/* Hero image */}
             <div className="relative w-full aspect-video overflow-hidden rounded-t-3xl">
               <Image
-                src={project.thumbnail}
+                src={assetPath(project.thumbnail)}
                 alt={project.title}
                 fill
                 className="object-cover"

@@ -2,6 +2,7 @@
 
 import { useRef, useEffect, useState } from "react";
 import { useTransform, useMotionValueEvent, MotionValue } from "framer-motion";
+import { assetPath } from "@/lib/assetPath";
 
 interface CanvasSequenceProps {
   scrollYProgress: MotionValue<number>;
@@ -23,7 +24,7 @@ export default function CanvasSequence({ scrollYProgress }: CanvasSequenceProps)
     for (let i = 1; i <= frameCount; i++) {
       const img = new Image();
       const paddedIndex = String(i).padStart(3, "0");
-      img.src = `/keyboard-teardown/ezgif-frame-${paddedIndex}.jpg`;
+      img.src = assetPath(`/keyboard-teardown/ezgif-frame-${paddedIndex}.jpg`);
       const handleLoad = () => {
         loadedCount++;
         if (loadedCount === frameCount) {

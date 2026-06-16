@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import type { Project } from "@/lib/projects";
 import Image from "next/image";
+import { assetPath } from "@/lib/assetPath";
 
 interface ProjectCardProps {
   project: Project;
@@ -36,7 +37,7 @@ export default function ProjectCard({ project, index, onClick }: ProjectCardProp
       {/* Thumbnail */}
       <div className="relative w-full aspect-video overflow-hidden">
         <Image
-          src={project.thumbnail}
+          src={assetPath(project.thumbnail)}
           alt={project.title}
           fill
           className={`object-cover ${
