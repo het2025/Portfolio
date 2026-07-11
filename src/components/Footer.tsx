@@ -34,7 +34,7 @@ export default function Footer() {
             LinkedIn
           </motion.a>
           <motion.a
-            href="mailto:het@example.com"
+            href="mailto:het416901@gmail.com"
             whileHover={{ color: "#00D6FF" }}
             className="hover:underline underline-offset-4 transition-colors"
           >
@@ -43,7 +43,7 @@ export default function Footer() {
         </nav>
 
         <p className="text-white/30 text-xs tracking-widest">
-          &copy; 2025 HeT Designed &amp; built with obsession.
+          &copy; 2026 HeT Patel &mdash; Designed &amp; built with obsession.
         </p>
       </div>
     </footer>

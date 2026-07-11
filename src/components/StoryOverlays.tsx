@@ -6,36 +6,36 @@ import Link from "next/link";
 
 const terminalLines = [
   "> loading het.config.js...",
-  "> skills: React, Three.js, Framer Motion",
+  "> stack: MERN, Angular, PHP, Python",
   "> status: open to work",
-  "> fun fact: built this site in 6 days",
+  "> interest: shifting to cybersecurity",
 ];
 
 const experienceData = [
   {
-    year: "2024 – Present",
-    role: "Frontend Creative Developer",
-    company: "Freelance",
-    desc: "Crafting high-performance scrollytelling experiences, interactive dashboards, and premium web applications for clients.",
+    year: "Dec 2025 – Apr 2026",
+    role: "Full Stack Developer Intern",
+    company: "Parul University (Final Sem)",
+    desc: "Built QuickBite — a Swiggy/Zomato-scale MERN platform with 4 portals, real-time Socket.IO tracking, and Azure deployment.",
   },
   {
-    year: "2024",
-    role: "Full-Stack Developer",
-    company: "VAJRA Platform",
-    desc: "Built India\u2019s citizen-facing fraud intelligence dashboard with interactive SVG maps and real-time scam alerts.",
+    year: "Dec 2024 – Apr 2025",
+    role: "Full Stack Developer Intern",
+    company: "Parul University (Sem 6)",
+    desc: "Developed a clothing e-commerce site with PHP, MySQL, REST APIs, secure authentication, and SQL injection prevention.",
   },
   {
-    year: "2023 – 2024",
-    role: "Security Tools Developer",
-    company: "SentinelAI",
-    desc: "Developed a modular Python cybersecurity suite with real-time network monitoring and automated threat detection.",
+    year: "May 2026",
+    role: "Cybersecurity Analyst (Virtual)",
+    company: "Mastercard · Forage",
+    desc: "Identified phishing threats and implemented security awareness training on Mastercard's Security Awareness Team.",
   },
 ];
 
 const certifications = [
-  { name: "Google UX Design", org: "Google" },
-  { name: "Meta Frontend Developer", org: "Meta" },
-  { name: "AWS Cloud Practitioner", org: "Amazon" },
+  { name: "Mastercard Cybersecurity", org: "Forage" },
+  { name: "Intro to AI", org: "Simplilearn" },
+  { name: "Linux Training", org: "IIT Bombay" },
 ];
 
 interface StoryOverlaysProps {
@@ -90,8 +90,16 @@ export default function StoryOverlays({ scrollYProgress }: StoryOverlaysProps) {
         className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 will-change-transform z-10 isolation-isolate"
       >
         <h1 className="text-6xl md:text-8xl font-bold tracking-tighter text-white mb-4 drop-shadow-2xl">Hi, I&apos;m HeT</h1>
-        <p className="text-xl md:text-2xl text-accent-cyan font-medium mb-4 drop-shadow-md">Frontend Creative Developer</p>
-        <p className="text-lg md:text-xl text-white/60 max-w-md drop-shadow-md">I craft high-performance, visually stunning web experiences.</p>
+        <p className="text-xl md:text-2xl text-accent-cyan font-medium mb-4 drop-shadow-md">Full Stack Developer</p>
+        <p className="text-lg md:text-xl text-white/60 max-w-md drop-shadow-md">I craft high-performance web experiences & security-aware applications.</p>
+        <div className="flex gap-3 mt-6 pointer-events-auto">
+          <Link href="/projects" className="px-5 py-2 rounded-full text-sm font-medium border border-white/20 text-white/80 hover:border-accent-cyan hover:text-white transition-all">
+            View Projects →
+          </Link>
+          <Link href="/internship" className="px-5 py-2 rounded-full text-sm font-medium bg-accent-violet/20 border border-accent-violet/40 text-accent-cyan hover:bg-accent-violet/30 transition-all">
+            My Experience
+          </Link>
+        </div>
       </motion.div>
 
       {/* ── Skills ── */}
@@ -102,7 +110,7 @@ export default function StoryOverlays({ scrollYProgress }: StoryOverlaysProps) {
         <div className="max-w-xl bg-black/30 backdrop-blur-md p-8 rounded-3xl border border-white/10">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-6 drop-shadow-lg">Breaking down complex UIs.</h2>
           <div className="flex flex-wrap gap-3">
-            {["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Three.js", "Node.js"].map((skill) => (
+            {["React.js", "Next.js", "TypeScript", "Node.js", "Express.js", "MongoDB", "Angular", "PHP", "Python", "Socket.IO", "Framer Motion", "GSAP", "Tailwind CSS", "Azure"].map((skill) => (
               <span key={skill} className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-white/90 text-sm font-medium backdrop-blur-sm">
                 {skill}
               </span>
@@ -134,6 +142,12 @@ export default function StoryOverlays({ scrollYProgress }: StoryOverlaysProps) {
               </div>
             ))}
           </div>
+          <Link
+            href="/internship"
+            className="inline-block mt-4 text-accent-cyan text-sm font-medium hover:underline underline-offset-4 transition-all pointer-events-auto"
+          >
+            View full internship details →
+          </Link>
         </div>
       </motion.div>
 
@@ -147,13 +161,18 @@ export default function StoryOverlays({ scrollYProgress }: StoryOverlaysProps) {
 
           <div className="space-y-4">
             <div className="group cursor-pointer p-4 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/10 pointer-events-auto">
-              <h3 className="text-xl font-bold text-white group-hover:text-accent-cyan transition-colors">Aura87 Scrollytelling</h3>
-              <p className="text-white/60 text-sm mt-1">Apple-style scroll sequence using HTML5 Canvas &amp; Framer Motion.</p>
+              <h3 className="text-xl font-bold text-white group-hover:text-accent-cyan transition-colors">VAJRA Cyber Platform</h3>
+              <p className="text-white/60 text-sm mt-1">India&apos;s first citizen-facing fraud intelligence dashboard with interactive maps.</p>
             </div>
 
             <div className="group cursor-pointer p-4 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/10 pointer-events-auto">
-              <h3 className="text-xl font-bold text-white group-hover:text-accent-cyan transition-colors">VAJRA Cyber Platform</h3>
-              <p className="text-white/60 text-sm mt-1">India&apos;s first citizen-facing fraud intelligence dashboard with interactive maps.</p>
+              <h3 className="text-xl font-bold text-white group-hover:text-accent-cyan transition-colors">QuickBite Food Platform</h3>
+              <p className="text-white/60 text-sm mt-1">Swiggy/Zomato-scale MERN ecosystem with 4 portals, real-time tracking & Azure deploy.</p>
+            </div>
+
+            <div className="group cursor-pointer p-4 rounded-xl hover:bg-white/5 transition-colors border border-transparent hover:border-white/10 pointer-events-auto">
+              <h3 className="text-xl font-bold text-white group-hover:text-accent-cyan transition-colors">Aura87 Scrollytelling</h3>
+              <p className="text-white/60 text-sm mt-1">Apple-style scroll sequence using HTML5 Canvas &amp; Framer Motion.</p>
             </div>
           </div>
 
@@ -173,11 +192,11 @@ export default function StoryOverlays({ scrollYProgress }: StoryOverlaysProps) {
       >
         <div className="max-w-xl bg-black/30 backdrop-blur-md p-8 rounded-3xl border border-white/10">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-4 drop-shadow-lg">Uncompromising Quality.</h2>
-          <p className="text-lg md:text-xl text-white/80 drop-shadow-md mb-4">I believe that the best digital products marry robust architecture with flawless aesthetics.</p>
-          <p className="text-md text-white/60 drop-shadow-md mb-6">Every detail, from the micro-animations to the overall layout, is purposefully designed to wow the user.</p>
+          <p className="text-lg md:text-xl text-white/80 drop-shadow-md mb-4">Full Stack Developer → Cybersecurity enthusiast. I build secure, scalable, and visually stunning products.</p>
+          <p className="text-md text-white/60 drop-shadow-md mb-6">IMCA @ Parul University · Vadodara, Gujarat · Open to work</p>
 
           {/* Certifications */}
-          <div className="flex flex-wrap gap-3">
+          <div className="flex flex-wrap gap-3 mb-4">
             {certifications.map((cert) => (
               <div
                 key={cert.name}
@@ -191,6 +210,12 @@ export default function StoryOverlays({ scrollYProgress }: StoryOverlaysProps) {
               </div>
             ))}
           </div>
+          <Link
+            href="/certifications"
+            className="inline-block text-accent-cyan text-sm font-medium hover:underline underline-offset-4 transition-all pointer-events-auto"
+          >
+            View all 11 certifications →
+          </Link>
         </div>
       </motion.div>
 

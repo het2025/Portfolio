@@ -1,0 +1,95 @@
+HET PATEL
+Full Stack Developer  |  IMCA Student  |  Parul University
+📞 +91 7043904762   |   ✉ het416901@gmail.com   |   📍 Vadodara, Gujarat, India
+🔗 linkedin.com/in/het-patel-4488h3881   | https://github.com/het2025 |  DOB: 12 July 2002 
+
+CAREER OBJECTIVE
+I am a Full Stack Developer finishing my IMCA at Parul University, with solid experience building real-world web applications using the MERN stack. I am now actively shifting my focus toward cybersecurity — I enjoy understanding how systems are built and want to learn how they are secured and defended. I have already started this journey through a Mastercard Cybersecurity Job Simulation and by building security-aware applications with JWT, XSS headers, and secure authentication. I am looking for a role where I can grow into cybersecurity while still using my development background to contribute from day one.
+EDUCATION
+
+Qualification	Board/University	Year	Score
+IMCA (IT & Computer Science)
+Full Stack Development Specialization
+Parul University, Vadodara	Parul University	2026	7.78 CGPA
+INTERNSHIP EXPERIENCE
+
+Full Stack Developer Intern  —  Parul University
+Semester 6  |  Dec 2024 – Apr 2025  |  Duration: 4 Months
+Project: Clothing E-Commerce Website (PHP)
+•	Developed and implemented backend routes and RESTful API endpoints for product, cart, and order management.
+•	Built secure user authentication system including login, registration, and session management using PHP.
+•	Designed and managed relational database schema using MySQL for products, users, and orders.
+•	Integrated server-side form validation and implemented input sanitization to prevent SQL injection.
+•	Technologies Used: PHP, MySQL, HTML5, CSS3, JavaScript, Bootstrap, Apache (XAMPP).
+
+Full Stack Developer Intern  —  Parul University
+Semester 8  |  Dec 2025 – Apr 2026  |  Duration: 4 Months
+Project: QuickBite – Full Ecosystem Food Ordering Platform (MERN Stack)
+A large-scale food ordering platform similar to Swiggy/Zomato with 4 separate portals: Admin, Restaurant, Delivery, and Customer.
+•	Architected a microservices-inspired system with 4 independent backends (Admin, Restaurant, Delivery, Customer) for modular scalability and easier debugging.
+•	Built real-time order tracking using Socket.IO, enabling live communication between customers, restaurants, and delivery partners.
+•	Implemented secure JWT-based authentication and Bcrypt password hashing across all portals.
+•	Developed Progressive Web App (PWA) support via Vite PWA plugin, making the Customer Portal installable on mobile devices.
+•	Integrated smooth UI animations using Framer Motion and GSAP for a premium user experience.
+•	Managed financial data including payout systems for restaurants and delivery personnel using MongoDB with Mongoose.
+•	Deployed on Microsoft Azure using Azure Static Web Apps with custom routing configuration for React Router support and XSS security headers.
+•	Frontend: React.js (Vite), Tailwind CSS, Material UI, Framer Motion, GSAP
+•	Backend: Node.js, Express.js  |  Database: MongoDB (Mongoose)  |  Real-time: Socket.IO
+•	Auth: JWT, Bcrypt  |  Deployment: Microsoft Azure Static Web Apps
+
+ADDITIONAL PROJECTS
+
+A selection of personal and academic projects demonstrating breadth of full stack skills:
+Project	Description
+CySafeClick	AI-powered cyber safety awareness platform for India, built with Angular and Node.js. Teaches users about scams, phishing, and password safety in Hindi and English, with a phishing-link checker and direct reporting guidance for cybercrime helplines.
+Food Delivery Website	Food delivery web app with browsing, ordering, and delivery management features. Deployed live on Vercel with a full production frontend.
+Port Scanner (Python)	Multithreaded Python tool for TCP port scanning, service detection, and banner grabbing. Built for network analysis and security reconnaissance — one of my first hands-on cybersecurity projects.
+AI Chat Platform	Full-stack AI chat platform that connects multiple LLMs in one interface with voice support. Built with TypeScript and JavaScript with a modern UI and multi-model orchestration.
+VisionAI: Biometric Intelligence	Desktop face detection and biometric analysis app built with Python and PyQt6. Performs real-time face detection, mask analysis, and identity registration using a live camera feed, with multi-threaded processing and local data storage for privacy.
+YouTube Clone	Video streaming UI with channel browsing, search, and video playback using React.js and YouTube Data API.
+Music Player	Feature-rich audio player with playlist management, play/pause controls, and progress tracking.
+Weather Forecasting App	Real-time weather app fetching live data from OpenWeatherMap API with location-based search.
+Medical Appointment System	Full-featured appointment booking system for patients and doctors with scheduling and records management.
+PHP Feedback Form	Dynamic feedback collection form with server-side validation, MySQL storage, and admin panel.
+Student Portal	Academic management portal with grade tracking, course registration, and student dashboard.
+Excel Spreadsheet Dashboard	Interactive data dashboard with charts and reporting built for spreadsheet data visualization.
+Medical Dashboard	Admin dashboard for hospital management featuring patient records, analytics, and appointment overview.
+
+
+
+
+
+
+TECHNICAL SKILLS
+
+Programming Languages	JavaScript (ES6+), Python, PHP, C, C++
+Frontend	React.js, Vite, HTML5, CSS3, Tailwind CSS, Bootstrap, Material UI, Framer Motion, GSAP
+Backend	Node.js, Express.js, PHP (MVC), REST API Design, JWT Authentication, Bcrypt, Socket.IO
+Databases	MongoDB (Mongoose), MySQL
+Cloud & Deployment	Microsoft Azure (Static Web Apps), Vite PWA
+Tools & Platforms	Git, GitHub, VS Code, Postman, XAMPP, npm
+Concepts	Full Stack Development, MERN Stack, MVC Architecture, REST APIs, Real-time Communication, PWA, Microservices Design
+CERTIFICATIONS & COURSES
+
+•	Introduction to Artificial Intelligence  —  Simplilearn
+•	Digital Marketing Course  —  Cursa
+•	Computer Networks  —  Advance Institute of Technology and Management
+•	Generative AI Mastermind  —  Outskill
+•	Linux Training  —  Spoken Tutorial Project – IIT Bombay
+•	PHP and MySQL Training  —  Spoken Tutorial Project – IIT Bombay
+•	JavaScript  —  Spoken Tutorial – IIT Bombay
+•	Introduction to Selenium  —  Simplilearn
+•	Introduction to SEO  —  Simplilearn
+•	Become a Machine Learning Expert: Introduction to MATLAB  —  Simplilearn
+•	Cybersecurity Job Simulation  —  Mastercard (via Forage)  |  Virtual Internship
+RESEARCH PUBLICATION
+Athlete Injury Risk Forecasting: A Review of Machine Learning Pipelines, Wearable Integration, and Ethical Governance in Sports Science
+Published in IJDDT (Scopus-Indexed)  |  Volume 16, Issue 54s, 2026  |  Pages 441–459
+Co-Authors: Het Patel, Om Bhatt, Dhruv Rajput, Uday Suresh Kamdi  |  DOI: 10.25258/ijddt.16.54s.40
+LANGUAGES KNOWN
+
+English  |  Hindi  |  Gujarati
+INTERESTS & HOBBIES
+
+Passionate about exploring and learning new technologies, staying updated with the latest trends in software development, artificial intelligence, and cloud computing. Enjoys building real-world applications to solve practical problems.
+
