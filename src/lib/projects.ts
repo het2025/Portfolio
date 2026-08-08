@@ -31,7 +31,7 @@ export const projects: Project[] = [
       "A large-scale food ordering platform with 4 separate portals: Admin, Restaurant, Delivery, and Customer. Architected a microservices-inspired system with 4 independent backends for modular scalability. Features real-time order tracking with Socket.IO, JWT + Bcrypt authentication, Progressive Web App (PWA) support, smooth animations with Framer Motion and GSAP, and payout management for restaurants and delivery personnel. Deployed on Microsoft Azure Static Web Apps with XSS security headers.",
     techStack: ["React.js", "Node.js", "MongoDB", "Socket.IO", "Azure", "Framer Motion", "GSAP", "JWT"],
     thumbnail: "https://img.youtube.com/vi/CGrBTqh9_xM/maxresdefault.jpg",
-    youtubeUrl: "https://www.youtube.com/embed/CGrBTqh9_xM?start=127",
+    youtubeUrl: "https://www.youtube.com/embed/CGrBTqh9_xM?start",
     githubUrl: "https://github.com/het2025",
     featured: true,
   },
