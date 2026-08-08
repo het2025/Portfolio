@@ -91,7 +91,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
             </div>
 
             {/* Content */}
-            <div className="relative px-8 md:px-16 pb-16 -mt-20">
+            <div className={`relative px-8 md:px-16 pb-16 ${project.youtubeUrl ? "pt-8" : "-mt-20"}`}>
               <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-3 drop-shadow-lg">
                 {project.title}
               </h2>
