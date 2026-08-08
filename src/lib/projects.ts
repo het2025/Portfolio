@@ -5,6 +5,7 @@ export interface Project {
   description: string;
   techStack: string[];
   thumbnail: string;
+  youtubeUrl?: string;
   liveUrl?: string;
   githubUrl?: string;
   featured: boolean;
@@ -29,42 +30,12 @@ export const projects: Project[] = [
     description:
       "A large-scale food ordering platform with 4 separate portals: Admin, Restaurant, Delivery, and Customer. Architected a microservices-inspired system with 4 independent backends for modular scalability. Features real-time order tracking with Socket.IO, JWT + Bcrypt authentication, Progressive Web App (PWA) support, smooth animations with Framer Motion and GSAP, and payout management for restaurants and delivery personnel. Deployed on Microsoft Azure Static Web Apps with XSS security headers.",
     techStack: ["React.js", "Node.js", "MongoDB", "Socket.IO", "Azure", "Framer Motion", "GSAP", "JWT"],
-    thumbnail: "/keyboard-teardown/ezgif-frame-030.jpg",
+    thumbnail: "https://img.youtube.com/vi/CGrBTqh9_xM/maxresdefault.jpg",
+    youtubeUrl: "https://www.youtube.com/embed/CGrBTqh9_xM?start=127",
     githubUrl: "https://github.com/het2025",
     featured: true,
   },
-  {
-    id: "aura87-scrollytelling",
-    title: "Aura87 Scrollytelling",
-    subtitle: "Apple-style scroll-linked image sequence with 240-frame canvas animation.",
-    description:
-      "A high-performance scrollytelling landing page built for a premium mechanical keyboard brand. The core experience is a scroll-bound HTML5 canvas that renders a 240-frame teardown sequence — the keyboard explodes into a technical diagram and reassembles as the user scrolls. Every text overlay is precisely mapped to scroll progress using Framer Motion transforms, creating a cinematic product story that feels native to the browser.",
-    techStack: ["Next.js 14", "Framer Motion", "HTML5 Canvas", "Tailwind CSS", "TypeScript"],
-    thumbnail: "/keyboard-teardown/ezgif-frame-060.jpg",
-    featured: false,
-  },
-  {
-    id: "cysafeclick",
-    title: "CySafeClick",
-    subtitle: "AI-powered cyber safety awareness platform for India — in Hindi & English.",
-    description:
-      "An Angular-powered cybersecurity awareness platform designed for Indian citizens. Teaches users about scams, phishing, and password safety in both Hindi and English. Features a phishing-link checker, direct reporting guidance for cybercrime helplines (1930), and contextual scam education for a multilingual audience.",
-    techStack: ["Angular", "Node.js", "TypeScript", "i18n", "AI"],
-    thumbnail: "/keyboard-teardown/ezgif-frame-090.jpg",
-    githubUrl: "https://github.com/het2025",
-    featured: false,
-  },
-  {
-    id: "visionai-biometric",
-    title: "VisionAI Biometric Intelligence",
-    subtitle: "Desktop face detection & biometric analysis with real-time camera feed.",
-    description:
-      "A Python desktop application built with PyQt6 for real-time face detection and biometric analysis. Performs mask analysis, identity registration, and multi-threaded processing using a live camera feed. Data is stored locally for privacy, making it suitable for offline environments with sensitive biometric information.",
-    techStack: ["Python", "PyQt6", "OpenCV", "Multi-threading"],
-    thumbnail: "/keyboard-teardown/ezgif-frame-120.jpg",
-    githubUrl: "https://github.com/het2025",
-    featured: false,
-  },
+
   {
     id: "ai-chat-platform",
     title: "AI Chat Platform",

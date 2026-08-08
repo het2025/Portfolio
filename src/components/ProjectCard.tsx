@@ -36,17 +36,36 @@ export default function ProjectCard({ project, index, onClick }: ProjectCardProp
 
       {/* Thumbnail */}
       <div className="relative w-full aspect-video overflow-hidden">
-        <Image
-          src={assetPath(project.thumbnail)}
-          alt={project.title}
-          fill
-          className={`object-cover ${
-            project.id === "vajra-platform"
-              ? "animate-scroll-y"
-              : "transition-transform duration-500 group-hover:scale-105"
-          }`}
-          sizes="(max-width: 768px) 100vw, 50vw"
-        />
+        {project.youtubeUrl ? (
+          <>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={project.thumbnail}
+              alt={project.title}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            {/* Play button overlay */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="w-16 h-16 rounded-full bg-red-600/90 flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform duration-300">
+                <svg className="w-7 h-7 text-white ml-1" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+            </div>
+          </>
+        ) : (
+          <Image
+            src={assetPath(project.thumbnail)}
+            alt={project.title}
+            fill
+            className={`object-cover ${
+              project.id === "vajra-platform"
+                ? "animate-scroll-y"
+                : "transition-transform duration-500 group-hover:scale-105"
+            }`}
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+        )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
       </div>
 

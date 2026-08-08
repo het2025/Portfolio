@@ -6,9 +6,10 @@ import Link from "next/link";
 
 const terminalLines = [
   "> loading het.config.js...",
-  "> stack: MERN, Angular, PHP, Python",
-  "> status: open to work",
-  "> interest: shifting to cybersecurity",
+  "> mode: cybersecurity_analyst",
+  "> skills: networking, ethical_hacking, SIEM, Linux",
+  "> status: actively seeking security roles",
+  "> background: full_stack_dev → offensive_security",
 ];
 
 const experienceData = [
@@ -90,8 +91,8 @@ export default function StoryOverlays({ scrollYProgress }: StoryOverlaysProps) {
         className="absolute inset-0 flex flex-col items-center justify-center text-center px-4 will-change-transform z-10 isolation-isolate"
       >
         <h1 className="text-6xl md:text-8xl font-bold tracking-tighter text-white mb-4 drop-shadow-2xl">Hi, I&apos;m HeT</h1>
-        <p className="text-xl md:text-2xl text-accent-cyan font-medium mb-4 drop-shadow-md">Full Stack Developer</p>
-        <p className="text-lg md:text-xl text-white/60 max-w-md drop-shadow-md">I craft high-performance web experiences & security-aware applications.</p>
+        <p className="text-xl md:text-2xl text-accent-cyan font-medium mb-4 drop-shadow-md">Full Stack Developer → Cybersecurity</p>
+        <p className="text-lg md:text-xl text-white/60 max-w-md drop-shadow-md">I build secure applications and am diving deep into ethical hacking, threat analysis & offensive security.</p>
         <div className="flex gap-3 mt-6 pointer-events-auto">
           <Link href="/projects" className="px-5 py-2 rounded-full text-sm font-medium border border-white/20 text-white/80 hover:border-accent-cyan hover:text-white transition-all">
             View Projects →
@@ -108,15 +109,24 @@ export default function StoryOverlays({ scrollYProgress }: StoryOverlaysProps) {
         className="absolute inset-0 flex flex-col items-start justify-center text-left px-10 md:px-24 will-change-transform z-20 isolation-isolate"
       >
         <div className="max-w-xl bg-black/30 backdrop-blur-md p-8 rounded-3xl border border-white/10">
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-6 drop-shadow-lg">Breaking down complex UIs.</h2>
-          <div className="flex flex-wrap gap-3">
-            {["React.js", "Next.js", "TypeScript", "Node.js", "Express.js", "MongoDB", "Angular", "PHP", "Python", "Socket.IO", "Framer Motion", "GSAP", "Tailwind CSS", "Azure"].map((skill) => (
-              <span key={skill} className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-white/90 text-sm font-medium backdrop-blur-sm">
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-3 drop-shadow-lg">Breaking barriers. Building defences.</h2>
+          <p className="text-sm text-accent-cyan font-mono mb-4 tracking-wider">// Cybersecurity</p>
+          <div className="flex flex-wrap gap-3 mb-4">
+            {["Ethical Hacking", "Penetration Testing", "Network Security", "Linux", "SIEM", "Phishing Analysis", "Threat Intelligence", "OSINT"].map((skill) => (
+              <span key={skill} className="px-4 py-2 bg-accent-cyan/10 border border-accent-cyan/30 rounded-full text-accent-cyan text-sm font-medium backdrop-blur-sm">
                 {skill}
               </span>
             ))}
           </div>
-          <p className="text-lg text-white/60 drop-shadow-md mt-6">My tech stack is engineered for precision, performance, and the perfect interactive feel.</p>
+          <p className="text-sm text-accent-cyan font-mono mb-3 tracking-wider">// Full Stack Background</p>
+          <div className="flex flex-wrap gap-3">
+            {["React.js", "Next.js", "Node.js", "Python", "MongoDB", "Azure"].map((skill) => (
+              <span key={skill} className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-white/70 text-sm font-medium backdrop-blur-sm">
+                {skill}
+              </span>
+            ))}
+          </div>
+          <p className="text-lg text-white/60 drop-shadow-md mt-6">Dev roots → Security mindset. I understand how things are built, so I know how they break.</p>
         </div>
       </motion.div>
 
@@ -191,9 +201,9 @@ export default function StoryOverlays({ scrollYProgress }: StoryOverlaysProps) {
         className="absolute inset-0 flex flex-col items-start justify-center text-left px-10 md:px-24 will-change-transform z-40 isolation-isolate"
       >
         <div className="max-w-xl bg-black/30 backdrop-blur-md p-8 rounded-3xl border border-white/10">
-          <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-4 drop-shadow-lg">Uncompromising Quality.</h2>
-          <p className="text-lg md:text-xl text-white/80 drop-shadow-md mb-4">Full Stack Developer → Cybersecurity enthusiast. I build secure, scalable, and visually stunning products.</p>
-          <p className="text-md text-white/60 drop-shadow-md mb-6">IMCA @ Parul University · Vadodara, Gujarat · Open to work</p>
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-4 drop-shadow-lg">Security-First Mindset.</h2>
+          <p className="text-lg md:text-xl text-white/80 drop-shadow-md mb-4">Full Stack Developer pivoting into Cybersecurity. I bring a developer&apos;s perspective to security — understanding systems from the inside out.</p>
+          <p className="text-md text-white/60 drop-shadow-md mb-6">IMCA @ Parul University · Vadodara, Gujarat · Seeking Cybersecurity Roles</p>
 
           {/* Certifications */}
           <div className="flex flex-wrap gap-3 mb-4">

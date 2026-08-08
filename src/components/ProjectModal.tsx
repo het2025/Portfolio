@@ -65,17 +65,29 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
               </svg>
             </button>
 
-            {/* Hero image */}
+            {/* Hero image / video */}
             <div className="relative w-full aspect-video overflow-hidden rounded-t-3xl">
-              <Image
-                src={assetPath(project.thumbnail)}
-                alt={project.title}
-                fill
-                className="object-cover"
-                sizes="100vw"
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0C] via-transparent to-transparent" />
+              {project.youtubeUrl ? (
+                <iframe
+                  src={project.youtubeUrl}
+                  title={project.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                />
+              ) : (
+                <>
+                  <Image
+                    src={assetPath(project.thumbnail)}
+                    alt={project.title}
+                    fill
+                    className="object-cover"
+                    sizes="100vw"
+                    priority
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0C] via-transparent to-transparent" />
+                </>
+              )}
             </div>
 
             {/* Content */}
