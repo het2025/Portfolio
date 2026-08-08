@@ -110,7 +110,7 @@ export default function StoryOverlays({ scrollYProgress }: StoryOverlaysProps) {
       >
         <div className="max-w-xl bg-black/30 backdrop-blur-md p-8 rounded-3xl border border-white/10">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-white mb-3 drop-shadow-lg">Breaking barriers. Building defences.</h2>
-          <p className="text-sm text-accent-cyan font-mono mb-4 tracking-wider">// Cybersecurity</p>
+          <p className="text-sm text-accent-cyan font-mono mb-4 tracking-wider">▸ Cybersecurity</p>
           <div className="flex flex-wrap gap-3 mb-4">
             {["Ethical Hacking", "Penetration Testing", "Network Security", "Linux", "SIEM", "Phishing Analysis", "Threat Intelligence", "OSINT"].map((skill) => (
               <span key={skill} className="px-4 py-2 bg-accent-cyan/10 border border-accent-cyan/30 rounded-full text-accent-cyan text-sm font-medium backdrop-blur-sm">
@@ -118,7 +118,7 @@ export default function StoryOverlays({ scrollYProgress }: StoryOverlaysProps) {
               </span>
             ))}
           </div>
-          <p className="text-sm text-accent-cyan font-mono mb-3 tracking-wider">// Full Stack Background</p>
+          <p className="text-sm text-accent-cyan font-mono mb-3 tracking-wider">▸ Full Stack Background</p>
           <div className="flex flex-wrap gap-3">
             {["React.js", "Next.js", "Node.js", "Python", "MongoDB", "Azure"].map((skill) => (
               <span key={skill} className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-white/70 text-sm font-medium backdrop-blur-sm">
